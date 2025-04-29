@@ -15,7 +15,7 @@ Make sure you have **Python 3.x** and **pip** installed. It's recommended to cre
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/brain-tumor-segmentation.git
+   git clone https://github.com/Isminii/diploma-thesis.git
    cd brain-tumor-segmentation
 
 2. **Create a virtual enviroment:**
