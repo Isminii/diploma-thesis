@@ -69,14 +69,14 @@ This project includes the implementation and evaluation of three deep learning m
 
 The project is organized into separate folders for each model architecture, making it easy to manage code and experiments independently. Each **model folder** typically contains:
 
-- `brats_dataloader.py`
+- `brats_dataloader.py`:
   Handles data loading, preprocessing, and augmentation for the BraTS dataset.
 
-- `specific_model.py`
+- `specific_model.py`:
   Defines the architecture of the model.
 
-- `specific_model_training.py`
+- `specific_model_training.py`:
   Contains the training loop, loss functions, optimizer setup, and logging.
 
-- `specific_model_testing.py`
+- `specific_model_testing.py`:
   Implements the evaluation pipeline and inference logic for the trained model.
