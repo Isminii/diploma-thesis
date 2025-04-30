@@ -72,11 +72,30 @@ The project is organized into separate folders for each model architecture, maki
 - `brats_dataloader.py`:
   Handles data loading, preprocessing, and augmentation for the BraTS dataset.
 
-- `*specific_model*.py`:
+- `<model_name>.py`:
   Defines the architecture of the model.
 
-- `*specific_model*_training.py`:
+- `<model_name>_training.py`:
   Contains the training loop, loss functions, optimizer setup, and logging.
 
-- `*specific_model*_testing.py`:
+- `<model_name>_testing.py`:
   Implements the evaluation pipeline and inference logic for the trained model.
+
+
+## Training & Evaluation
+
+To train a specific model, run the corresponding training script:
+   
+   `python <model_name>_training.py`
+
+To evaluate a trained model, use the associated testing script:
+
+   `python <model_name>_testing.py`
+
+
+
+
+
+
+
+
