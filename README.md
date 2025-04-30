@@ -12,6 +12,8 @@ Follow these steps to set up and run the project locally:
 ### Prerequisites
 Make sure you have **Python 3.x** and **pip** installed. It's recommended to create a **virtual environment** to avoid dependency conflicts.
 
+>  _Note: This project was developed and tested using an **AWS EC2 g5.xlarge instance** with NVIDIA GPU support for efficient deep learning training._
+
 ### Steps to Install:
 
 1. **Clone the repository:**
