@@ -4,6 +4,7 @@ This project is part of my diploma thesis at the Department of Electrical and Co
 The goal is to support therapeutic planning, enhance treatment precision, and demonstrate the transformative potential of AI in healthcare applications.
 
 
+
 ## Installation
 
 Follow these steps to set up and run the project locally:
@@ -43,17 +44,21 @@ Make sure you have **Python 3.x** and **pip** installed. It's recommended to cre
     You need to have a [Kaggle account](https://www.kaggle.com) and accept the dataset's terms of use to download it.
 
 
+
 ## Models
 
 This project includes the implementation and evaluation of three deep learning models for brain tumor segmentation:
 
 1. **3D U-Net**
+   
    A volumetric version of the classic U-Net architecture, adapted to process full 3D MRI volumes. It captures spatial features across all three dimensions, making 
    it well-suited for medical image segmentation tasks.
 
-2. **3D TransUNet**
+3. **3D TransUNet**
+   
    A hybrid architecture that combines a 3D U-Net with a Vision Transformer (ViT). It leverages the strengths of CNNs for local feature extraction and Transformers    for capturing long-range dependencies within 3D volumes.
 
-3. **2D Slice-by-Slice TransUNet**
+5. **2D Slice-by-Slice TransUNet**
+   
    A 2D variant of the TransUNet model that processes each MRI volume slice-by-slice instead of as a full 3D volume. It applies a 2D U-Net + ViT hybrid 
    architecture to individual slices and then reconstructs the predicted 3D segmentation mask by stacking the outputs from each slice.
