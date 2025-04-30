@@ -85,13 +85,16 @@ The project is organized into separate folders for each model architecture, maki
 ## Training & Evaluation
 
 To train a specific model, run the corresponding training script:
-   
-   ```python <model_name>_training.py```
+
+```bash
+   python <model_name>_training.py
+```
 
 To evaluate a trained model, use the associated testing script:
 
-   ```python <model_name>_testing.py```
-
+```bash 
+   python <model_name>_testing.py
+```
 
 
 
