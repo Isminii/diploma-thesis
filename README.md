@@ -87,13 +87,13 @@ The project is organized into separate folders for each model architecture, maki
 To train a specific model, run the corresponding training script:
 
 ```bash
-   python <model_name>_training.py
+python <model_name>_training.py
 ```
 
 To evaluate a trained model, use the associated testing script:
 
 ```bash 
-   python <model_name>_testing.py
+python <model_name>_testing.py
 ```
 
 
